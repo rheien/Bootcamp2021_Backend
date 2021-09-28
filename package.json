@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Test for Bootcamp 2021 backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --out-dir docs --public-url .",
+    "start": "node src/index.js"
+  },
+  "author": "Ryan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "jquery": "^3.6.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
