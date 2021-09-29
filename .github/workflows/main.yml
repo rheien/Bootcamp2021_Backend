@@ -22,7 +22,7 @@ jobs:
           USERNAME: ${{ secrets.DOCKER_USERNAME }}
           PASSWORD: ${{ secrets.DOCKER_TOKEN }}
           DOCKERFILE: Dockerfile
-          IMAGE_NAME: rheien/bootcamp21_Backend
+          IMAGE_NAME: rheien/bootcamp21backend
           TAG_NAME: latest
           LATEST: true
 
