@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
 
 const port = process.env.PORT || 3000;
 
-app.get('/healthcheck', (req, res) => res.json(response(200, ({ msg: 'läuft' }))));
+app.get('/healthcheck', (req, res) => res.json(response(200, ({ message: 'läuft' }))));
 
 app.get("/library", (req, res) => {
     const mediaType = req.query.type;
