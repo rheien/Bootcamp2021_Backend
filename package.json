@@ -4,17 +4,17 @@
   "description": "Test for Bootcamp 2021 backend",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html --out-dir docs --public-url .",
-    "start": "node src/index.js"
+    
+    "start": "node src/index.js",
+    "test":"jest ."
   },
   "author": "Ryan",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "install": "^0.13.0",
-    "jquery": "^3.6.0",
-    "parcel-bundler": "^1.12.5"
+    
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.2.3"
   }
 }
